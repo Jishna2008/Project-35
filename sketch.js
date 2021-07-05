@@ -13,7 +13,7 @@ function setup(){
 
   console.log(database)
   createCanvas(1500,700);
-  balloon=createSprite(100,500,150,150);
+  balloon=createSprite(100,400,150,150);
   balloon.addAnimation("hotAirBalloon",balloonImage1);
   balloon.addAnimation("hotAirBalloon",balloonImage2)
 
